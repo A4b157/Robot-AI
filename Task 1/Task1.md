@@ -14,6 +14,7 @@
 
  **To download ROS, firstly setup ubuntu, then open the terminal and write some instruction found on the ROS website as follow:**
  
+ ## Install Ros 1 
  ### 1-	Setup your computer to accept software from packages.ros.org.
  
  ``` 
