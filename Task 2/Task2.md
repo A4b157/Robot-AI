@@ -7,7 +7,7 @@
  
 2-	Download [Balena](https://www.balena.io/etcher/) or any software (to Flash Xubuntu image to SD card or USB)
 
-3-	Download and install [ROS 2](https://docs.ros.org/en/dashing/Installation/Ubuntu-Development-Setup.html) 
+3-	Download and install [ROS 2](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html) 
 
 **To download ROS, open the terminal and write some instruction found on the ROS website as follow:**
 
@@ -77,6 +77,24 @@ sudo apt install ros-foxy-ros-base
 
 
 
+### Environment setup
+Set up your environment by sourcing the following file.
+```
+source /opt/ros/foxy/setup.bash
+```
 
+### Try some examples 
+In one terminal, source the setup file and then run a C++ talker:
+```
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+In another terminal source the setup file and then run a Python listener:
+```
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_py listener
+```
+you should see the talker saying that it’s Publishing messages and the listener saying I heard those messages. This verifies both the C++ and Python APIs are working properly. 
 
 
