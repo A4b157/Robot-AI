@@ -25,9 +25,4 @@ export LANG=en_US.UTF-8
 locale  # verify settings
 ```
 
-### Add the ROS 2 apt repository
-You will need to add the ROS 2 apt repositories to your system. To do so, first authorize our GPG key with apt like this:
-```
-sudo apt update && sudo apt install curl gnupg2 lsb-release
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
-```
+
