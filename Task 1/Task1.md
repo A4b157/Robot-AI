@@ -50,3 +50,13 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+### 6-	Install package 
+There are even more packages available in ROS. You can always install a specific package directly
+```
+sudo apt install ros-noetic-PACKAGE
+```
+To find available packages
+```
+apt search ros-noetic
+```
+
